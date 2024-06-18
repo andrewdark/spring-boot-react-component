@@ -28,6 +28,7 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
+!**/src/main/**/node_modules/
 
 ### VS Code ###
 
@@ -36,7 +37,9 @@ build/
 .idea/
 
 # dependencies
-!**/src/main/**/node_modules
+/src/main/frontend/node_modules
+/src/main/frontend/build
+/node_modules
 /.pnp
 .pnp.js
 
