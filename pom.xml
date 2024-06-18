@@ -44,6 +44,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.webjars.npm/react -->
+		<dependency>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>react</artifactId>
+			<version>18.1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.webjars.npm/react-dom -->
+		<dependency>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>react-dom</artifactId>
+			<version>18.1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
